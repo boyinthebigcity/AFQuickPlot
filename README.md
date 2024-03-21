@@ -19,4 +19,4 @@ Ready-to-go Jupyter notebook for plotting AlphaFold-generated MSAs, per-residue 
 - The plots will be saved inside the output folder as PDFs
 
 3. Acknowledgements
-This notebook was based on the code by Sébastien Lemal PhD: https://blog.biostrand.ai/explained-how-to-plot-the-prediction-quality-metrics-with-alphafold2 
+- This notebook was based on the code by Sébastien Lemal PhD: https://blog.biostrand.ai/explained-how-to-plot-the-prediction-quality-metrics-with-alphafold2 
