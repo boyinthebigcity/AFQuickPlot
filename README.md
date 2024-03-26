@@ -1,7 +1,7 @@
 # AFQuickPlot
 Ready-to-go Jupyter notebook for plotting AlphaFold-generated MSAs, per-residue pLDDT, and PAE. 
 
-1. Pre-requisites:
+## Pre-requisites:
 - AlphaFold output files
 - Python with the following packages:
   - os
@@ -12,7 +12,7 @@ Ready-to-go Jupyter notebook for plotting AlphaFold-generated MSAs, per-residue 
   - matplotlib.pyplot
   - pandas
 
-2. How to use:
+## How to use:
 - Run your AlphaFold prediction on your preferred system (e.g. on a HPC)
 - Download the output folder to your local drive
 - Copy the pathname from the downloaded folder and open the AFQuickPlot.ipynb notebook
@@ -20,5 +20,5 @@ Ready-to-go Jupyter notebook for plotting AlphaFold-generated MSAs, per-residue 
 - The plots will be saved inside the output folder as .pdf files, and pLDDT scores as a .csv file
 - Use the AFRePlot.ipynb notebook to re-plot pLDDT scores with your choice of nº top-ranked predictions and range of positions shown.
 
-3. Acknowledgements
+## Acknowledgements
 - This notebook was based on the code by Sébastien Lemal PhD: https://blog.biostrand.ai/explained-how-to-plot-the-prediction-quality-metrics-with-alphafold2 
