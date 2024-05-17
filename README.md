@@ -2,7 +2,7 @@
 Ready-to-go Jupyter notebook toolbox for plotting AlphaFold-generated MSAs, per-residue pLDDT, and PAE. 
 
 ## Pre-requisites:
-- AlphaFold output files
+- AlphaFold 2.3.2 output files (AlphaFold 3 currently not supported)
 - Python with the following packages:
   - os
   - glob
