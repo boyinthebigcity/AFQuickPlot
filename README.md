@@ -13,11 +13,14 @@ Ready-to-go Jupyter notebook toolbox for plotting AlphaFold-generated MSAs, per-
   - pandas
 
 ## How to use:
-1. Run your AlphaFold prediction on your preferred system (e.g. on a HPC)
+1. Run your AlphaFold (AF) prediction on your preferred system (e.g. on a HPC)
 2. Download the output folder to your local drive
 3. Copy the pathname from the downloaded folder and open the correct notebook for your AF version:
-  - Version 2.3.2 = AFQuickPlot.ipynb (or AFParser.ipynb > AFRePlot.ipynb). *_Other AlphaFold2 versions may work, but haven't been tested._*
-  - (Version 3)[https://alphafoldserver.com/] = AF3Plot.ipynb
+  
+  |[Version 3 (beta)](https://alphafoldserver.com/)|Version 2.3.2        |
+  |---------------------|--------------------|
+  |AF3Plot.ipynb       |AFQuickPlot.ipynb (or AFParser.ipynb)|
+  | |*_Other AlphaFold2 versions may work, but haven't been tested._*|
 4. Run all cells, and paste in the pathname and write in your protein name when prompted.
     - (V2.3.2) If the notebook takes too long or the kernal dies, use AFParser.ipynb to create the pLDDT .csv file and go to step 6.
 5. The plots will be saved inside the output folder as .pdf files, and pLDDT scores as a .csv file
