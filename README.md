@@ -2,7 +2,7 @@
 Ready-to-go Jupyter notebook toolbox for plotting AlphaFold-generated MSAs, per-residue pLDDT, and PAE. 
 
 ## Pre-requisites:
-- AlphaFold 2.3.2 output files (AlphaFold 3 currently not supported)
+- Output files from AlphaFold
 - Python with the following packages:
   - os
   - glob
@@ -15,9 +15,11 @@ Ready-to-go Jupyter notebook toolbox for plotting AlphaFold-generated MSAs, per-
 ## How to use:
 1. Run your AlphaFold prediction on your preferred system (e.g. on a HPC)
 2. Download the output folder to your local drive
-3. Copy the pathname from the downloaded folder and open the AFQuickPlot.ipynb notebook
+3. Copy the pathname from the downloaded folder and open the correct notebook for your AF version:
+  - Version 2.3.2 = AFQuickPlot.ipynb (or AFParser.ipynb > AFRePlot.ipynb). *_Other AlphaFold2 versions may work, but haven't been tested._*
+  - (Version 3)[https://alphafoldserver.com/] = AF3Plot.ipynb
 4. Run all cells, and paste in the pathname and write in your protein name when prompted.
-    - If the notebook takes too long or the kernal dies, use AFParser.ipynb to create the pLDDT .csv file and go to step 6.
+    - (V2.3.2) If the notebook takes too long or the kernal dies, use AFParser.ipynb to create the pLDDT .csv file and go to step 6.
 5. The plots will be saved inside the output folder as .pdf files, and pLDDT scores as a .csv file
 6. Use the AFRePlot.ipynb notebook to re-plot pLDDT scores with your choice of nº top-ranked predictions and range of positions shown.
 
